@@ -11,3 +11,7 @@ end
 get '/anothersecret' do
   "This is another route"
 end
+
+get '/cat' do
+    "<img src='http://bit.ly/1eze8aE'; style= 'border: 5px dotted red'>"
+end
